@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Overview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        .code {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 10px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            overflow-x: auto;
+        }
+        .chart {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Introduction to Data Science</h1>
+        <p>Data Science is a multidisciplinary field that uses scientific methods, processes, algorithms, and systems to extract knowledge and insights from data. It combines various techniques from statistics, machine learning, data mining, and big data analytics.</p>
+
+        <h2>Data Visualization Example</h2>
+        <p>Below is an example of a data visualization chart that could be generated using a tool like Matplotlib in Python.</p>
+        <div class="chart">
+            <!-- Placeholder for a data visualization image -->
+            <img src="https://via.placeholder.com/600x400?text=Data+Visualization" alt="Data Visualization Example">
+        </div>
+
+        <h2>Sample Python Code for Data Analysis</h2>
+        <p>Here is a simple example of Python code that uses Pandas and Matplotlib to analyze and plot data:</p>
+        <div class="code">
+            <code>
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample data
+data = {'Category': ['A', 'B', 'C', 'D'], 'Values': [10, 20, 15, 25]}
+df = pd.DataFrame(data)
+
+# Plot
+plt.bar(df['Category'], df['Values'])
+plt.xlabel('Category')
+plt.ylabel('Values')
+plt.title('Bar Chart Example')
+plt.show()
+            </code>
+        </div>
+    </div>
+</body>
+</html>
